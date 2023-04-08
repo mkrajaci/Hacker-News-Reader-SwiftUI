@@ -15,6 +15,8 @@
 		ACAC1BB929E1C9B900A0C8A6 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC1BB829E1C9B900A0C8A6 /* PostData.swift */; };
 		ACAC1BBC29E1F72400A0C8A6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC1BBB29E1F72400A0C8A6 /* DetailView.swift */; };
 		ACAC1BBE29E1FC2D00A0C8A6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC1BBD29E1FC2D00A0C8A6 /* WebView.swift */; };
+		ACDCB18829E202E700F26C15 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ACDCB18729E202E700F26C15 /* .gitignore */; };
+		ACDCB18A29E2031B00F26C15 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = ACDCB18929E2031B00F26C15 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		ACAC1BB829E1C9B900A0C8A6 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		ACAC1BBB29E1F72400A0C8A6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		ACAC1BBD29E1FC2D00A0C8A6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		ACDCB18729E202E700F26C15 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ACDCB18929E2031B00F26C15 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 		ACAC1B9B29E1B94100A0C8A6 = {
 			isa = PBXGroup;
 			children = (
+				ACDCB18929E2031B00F26C15 /* Readme.md */,
+				ACDCB18729E202E700F26C15 /* .gitignore */,
 				ACAC1BA629E1B94100A0C8A6 /* Hacker News Reader SwiftUI */,
 				ACAC1BA529E1B94100A0C8A6 /* Products */,
 			);
@@ -154,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACAC1BAF29E1B94200A0C8A6 /* Preview Assets.xcassets in Resources */,
+				ACDCB18829E202E700F26C15 /* .gitignore in Resources */,
+				ACDCB18A29E2031B00F26C15 /* Readme.md in Resources */,
 				ACAC1BAC29E1B94200A0C8A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
